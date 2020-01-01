@@ -43,6 +43,7 @@ function setupSquares() {
       if (clickedColor === pickedColor) {
         message.textContent = "Correct!";
         reset.textContent = "Play Again?";
+        // mainMessage.textContent = "You're just another looser like Diva";
         changeColors(clickedColor);
         h1.style.backgroundColor = clickedColor;
       } else {
