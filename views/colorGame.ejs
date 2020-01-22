@@ -1,15 +1,21 @@
 <%- include("partials/header") %>
 <h1 id="mainMessage">
-  The <br />
   <span id="colorDisplay">RGB</span>
   <br />
-  Color Game
 </h1>
-<div id="stripe">
+<div class="stripe">
   <button id="reset">New Colors</button>
   <span id="message"></span>
   <button class="mode">Easy</button>
   <button class="mode selected">Hard</button>
+</div>
+<div class="stripe">
+  <!-- todo change the class mode bellow -->
+  <button class="scoreLabel">Score</button>
+  <span class="score"></span>
+  <span class="message"></span>
+  <button class="levelLabel">level</button>
+  <span class="level"></span>
 </div>
 <div id="container">
   <div class="square"></div>
